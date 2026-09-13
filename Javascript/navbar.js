@@ -11,6 +11,7 @@ const isHomePage = (currentFile === 'index.html' || currentFile === '');
 const progressBarHTML = isHomePage ? '' : `
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
+    <div class="progress-bar" id="myBar"></div>
   </div>
 `;
 
@@ -28,13 +29,12 @@ const navHTML = progressBarHTML + `
       </ul>
       
       <div class="social-icons">
-        <a id="theme-toggle" class="theme-link" title="Toggle Dark Mode" style="cursor: pointer;">
-            <i class="fas fa-moon" id="theme-icon"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/oliver-h-chang/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a id="theme-toggle" class="theme-link" title="Toggle Dark Mode" style="cursor: pointer;"><i class="fas fa-moon" id="theme-icon"></i></a>
+        <a href="https://www.strava.com/athletes/70506145" target="_blank" title="Strava"><i class="fab fa-strava"></i></a>
+        <a href="https://www.linkedin.com/in/oliverhchang/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/oliverhchang" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://instagram.com/oliverhchang" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=oli.chang664@gmail.com" target="_blank" title="Email oli.chang664@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/myportableworkshop/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=oliverhchang.mech@gmail.com" target="_blank" title="Email oliverhchang.mech@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
     </nav>
   </header>

@@ -2,7 +2,7 @@
 
 // 1. TYPING EFFECT CONFIGURATION
 const textElement = document.querySelector(".role-sec-text");
-const words = ["MechE Student", "Chassis Engineer", "Lead Research Engineer", "Hybrid Athlete", "CAD Addict"];
+const words = ["MechE Student", "FRC Alumni", "Chassis Engineer", "Ocean Researcher", "CAD Addict"];
 
 let wordIndex = 0;
 let charIndex = 0;
